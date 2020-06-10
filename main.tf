@@ -57,6 +57,8 @@ resource aws_security_group "hashicat" {
 
   tags = {
     Name = "${var.prefix}-security-group"
+    Billable = "true"
+    Deparment = "devops"
   }
 }
 
@@ -124,6 +126,8 @@ resource aws_instance "hashicat" {
 
   tags = {
     Name = "${var.prefix}-hashicat-instance"
+    Billable = "true"
+    Deparment = "devops"
   }
 }
 
