@@ -1,5 +1,5 @@
 module "vpc" {
-source = "https://github.com/karikirfman/terraform-aws-vpc/"
+source = "git::https://github.com/karikirfman/terraform-aws-vpc/vpc/aws"
 
   name = "guarav-vpc"
   cidr = "10.0.0.0/16"
