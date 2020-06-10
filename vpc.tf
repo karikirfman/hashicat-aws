@@ -1,4 +1,4 @@
-module "gaurav_vpc" {
+module "vpc" {
 source = "https://github.com/karikirfman/terraform-aws-vpc/"
 
   name = "guarav-vpc"
